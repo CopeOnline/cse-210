@@ -1,5 +1,6 @@
 # cse210-ww-student-template
 This is the starter code for students in the worldwide content version of CSE 210.
+Was not a part of the CSE 210 I took a couple years ago.
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
@@ -8,3 +9,5 @@ This repository contains the starter code for many different projects. They are 
 * `prepare` - Starter projects for each of the preparation Learning Activities.
 * `prove` - Starter projects for each of the prove Developer projects.
 * `final` - Starter projects for final project.
+
+https://byui-cse.github.io/cse210-ww-course-2023/week01/

@@ -58,7 +58,26 @@ class Program
 
         Console.WriteLine($"The max is: {max}");
 
-        
+        int leastPositive = numbers[0];
+
+        foreach (int number in numbers)
+        {
+            if (number > 0 )
+            {
+            leastPositive = Math.Min(leastPositive, number);
+            }
+        }
+
+        Console.WriteLine($"The smallest positive number is: {leastPositive}");
+
+        numbers.Sort();
+
+        Console.WriteLine("The sorted list is: ");
+        for (int i = 0; i < numbers.Count; i++)
+        {
+            int number = numbers[i];
+            Console.WriteLine(number);
+        }
 
 
     }

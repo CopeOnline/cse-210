@@ -49,7 +49,7 @@ class Program
             mod = null;
         }
 
-        if (grade >= 97 && grade < 73)
+        if (grade >= 97 || grade < 73)
         {
             mod = null;
         }

@@ -15,6 +15,8 @@ class Program
         string letter;
         string mod;
 
+        string passFail;
+
         if (grade >= 90)
         {
             letter = "A";
@@ -49,11 +51,20 @@ class Program
             mod = null;
         }
 
-        if (grade >= 97 || grade < 73)
+        if (grade >= 97 || grade < 60)
         {
             mod = null;
         }
 
+        if (grade >= 70)
+        {
+            passFail = "You passed! Great work!";
+        }
+        else
+        {
+            passFail = "You failed. Better luck next time!"
+        }
         Console.Write($"Your grade is {letter}{mod}");
+        Console.Write(passFail);
     }
 }

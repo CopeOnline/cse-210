@@ -62,9 +62,9 @@ class Program
         }
         else
         {
-            passFail = "You failed. Better luck next time!";
+            passFail = "You failed. Please try again!";
         }
-        Console.Write($"Your grade is an {letter}{mod} ");
+        Console.Write($"Your grade is an {letter}{mod}. ");
         Console.Write(passFail);
     }
 }
